@@ -30,7 +30,7 @@ fn main() {
     // turples::run();
     // vectors::run();
     // hashmap::run();
-    slices::run();
+    // slices::run();
     word_counter::run();
 }
 
