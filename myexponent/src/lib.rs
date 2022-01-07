@@ -1,14 +1,12 @@
-fn pow(base: i64, exponent: usize) -> i64 {
+pub fn pow(base: i64, exponent: usize) -> i64 {
     let mut res = 1;
 
     if exponent == 0 {
         return 1;
     }
 
-    for a in 0..exponent {
-        println!("count: {}", a);
+    for _ in 0..exponent {
         res = res * base;
-        println!("Result: {}", res);
     }
 
     res
